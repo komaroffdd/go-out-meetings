@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/go_out_events_db
+    username: postgres
+    password: postgres
+    driver-class-name: 'org.postgresql.Driver'
+
+telegram:
+  bot:
+    token: 5476880056:AAFuSbvbRQ3YoccoAOp3yAfZR3doYjDeHfU
+    botname: HRagentBot
